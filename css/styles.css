@@ -1,0 +1,406 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#009FB7 - 孔雀蓝
+#FEFFEF - 淡黄
+#F1EFF9 - 淡紫
+#F7EDEF - 淡粉
+#F7F7F7 - white smoke
+
+
+#EDF7F5 - 淡绿二
+#DAD3ED - 淡紫二
+#EDF6F7- 淡蓝
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+background: #F7FFF7;
+  color: #F7FFF7;
+margin-bottom: 0;
+    font-size: larger;
+}
+
+.a{
+    padding: 30px;
+    list-style-type: none;
+
+}
+
+.content-wrapper {
+  
+     margin: 0;
+    float: left;
+    margin-left: 50px;
+    margin-top: 150px;
+  position: fixed;
+}
+
+.slogan {
+    font-size: 45px;
+}
+
+
+/*
+.luxu {
+    display: inline-block;
+    background-image: linear-gradient; 
+     text-decoration:none;
+    border-color:blue;
+}
+*/
+
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 800px;
+}
+.img1{
+    width:300px;
+    height: 228px;
+
+}
+
+a {
+   text-decoration:none;
+    color: dimgrey;
+}
+a:hover {
+  text-decoration:none;
+
+    color:#EE6352;
+}
+
+/*
+.lu{
+  color:  #EE6352;
+    
+}
+*/
+
+h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.top {
+    margin-top: 60px;
+}
+.buttom {
+    margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+h1, h2 {
+  font-family:  sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.content-wrap1 {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.content-wrap2 {
+  max-width: 1000px;
+    margin-left: 400px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+    
+}
+
+.play {
+    margin-top: 80px;
+}
+.song{
+   align-content: center;
+}
+
+h3 {
+     font-family:  'Montserrat', sans-serif; 
+  margin-bottom: 0;
+}
+
+.contact {
+    margin-top: 0;
+}
+
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background:#F7F7F7 ;
+  color: #343434;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #F7EDEF;
+}
+.projects-1{
+    background: #F7F7F7;
+    
+}
+
+.projects-3{
+    background: #DAD3ED;
+}
+.projects-2{
+    background: #EDF6F7;
+}
+
+
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: rgb(105, 105, 105,80%);
+/* #F4BEC9  EDA89E  rgba(47, 48, 97, 70%)*/
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+    margin-top: 30px;
+    
+}
+.projects .btn:hover {
+  background: #EE6352;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #A1C6D7;
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #F7F7F7;
+
+    color: dimgrey;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:750px){
+    
+    .navigation {
+    display: flex;
+    justify-content: flex-end;
+  }
+    header {
+        text-align: left;
+    }
+ footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+}
+
+
+/*Project 1.
+---------------------*/
+
+.project-name {
+    
+    margin-bottom: 50px;
+}
+
+.project-description {
+  
+    display: inline;
+
+margin-top: 0px;
+line-height: 36px;
+font-weight: 400;
+  }
+
+.con {
+    width:300px; height: 200px;
+    margin-right: 50px;
+}
+.con1 {
+    width:300px; height: 400px;
+    margin-right: 50px;
+}
+
+
+.final-concept {
+     width:400px; height: 450px;
+}
+.SB {
+   width:350px; height: 400px; margin-right: 30px; 
+}
+
+
+.lisa{
+     width:100px; height: 130px;
+}
+
+.fm{
+    width:180px; height:250px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+.fmm{  
+    width:180px; height:320px;
+    margin-right: 10px;
+    margin-top: 50px;
+    
+}
+
+.fm1{
+    width:180px; height:250px;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-content: center;
+     margin-top: 10px;
+
+}
+
+.fmm1{
+     width:180px; height:320px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;
+     margin-top: 20px; 
+}
+
+
+
+.fm2{
+    width:180px; height:250px;
+    margin-left: 60px;
+    margin-right: 10px;
+        margin-top: 10px;
+
+}
+
+.fmm2{
+    width:180px; height:320px;
+    margin-left: 60px;
+    margin-right: 10px;
+        margin-top: 20px;
+
+}
+
+
+.feature{
+    width: 390px;
+    height: 250px;
+}
+
+.copy {
+    font-size: small;
+}
+
+.footer{
+    text-decoration: underline;
+}
