@@ -70,8 +70,15 @@ body {
   line-height: 1.5;
 }
 img {
-  width: 800px;
+  max-width: 800px;
+    width:100%
 }
+
+iframe {
+   max-width: 800px;
+    width:100%  
+}
+
 .img1{
     width:300px;
     height: 228px;
