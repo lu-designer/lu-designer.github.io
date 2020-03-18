@@ -93,20 +93,19 @@ iframe {
 
 a {
    text-decoration:none;
-    color: #ED887B;
+    color: #343434;
 }
 a:hover {
   text-decoration:none;
-
     color:#EE6352;
 }
 
-/*
-.lu{
-  color:  #EE6352;
-    
+.luxu {
+     text-decoration:none;
+    color: #ED887B;
 }
-*/
+
+
 
 h1 {
   font-size: 60px;
