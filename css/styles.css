@@ -147,8 +147,8 @@ h1, h2 {
 }
 
 .content-wrap2 {
-  max-width: 1000px;
-    margin-left: 400px;
+  max-width: 800px;
+/*     margin-left: 400px; */
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
