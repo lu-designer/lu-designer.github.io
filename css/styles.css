@@ -37,6 +37,10 @@ margin-bottom: 0;
 
 }
 
+.redwords {
+    color:crimson;
+}
+
 .item-description{
     
 padding-top: 30px;
@@ -55,13 +59,18 @@ padding-top: 30px;
 }
 
 .slogan {
-    font-size: 55px;
-    margin-top:50px ;
+    font-size: 65px;
+    margin-top:30px ;
+   font-family:  'Abril Fatface',"Open Sans", "Helvetica Neue";
+
+    
 }
 
 .slogan1{
-   font-size: 50px; 
+   font-size: 30px; 
     margin-bottom: 30px;
+       font-family: 'Roboto', "Open Sans", "Helvetica Neue";
+
 }
 
 
@@ -79,16 +88,32 @@ body {
   color: #343434;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Roboto', 'Open Sans',Arial,sans-serif; 
+  font-size: 18px;
+  line-height: 2;
 }
 
 .img1{
     width:300px;
     height: 228px;
-
 }
+
+
+.img2{
+    width:400px;
+    height: 258px;
+    padding-top: 20px;
+}
+
+.img3{
+    
+  width: 150px;
+    height: 280px;
+    
+}
+
+
+
 
 img {
   max-width: 800px;
@@ -142,9 +167,10 @@ h1 {
 h2 {
   font-size: 40px;
     margin-bottom: 50px;
+     
 }
 h1, h2 {
-  font-family:  sans-serif;
+  font-family:   'Abril Fatface',"Open Sans", "Helvetica Neue";
   font-weight: 400;
   margin: 0;
 }
@@ -179,7 +205,7 @@ h1, h2 {
 }
 
 h3 {
-     font-family:  'Montserrat', sans-serif; 
+     font-family:   'Roboto',"Open Sans", "Helvetica Neue";
   margin-bottom: 0;
 }
 
@@ -239,7 +265,7 @@ header {
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
-    margin-top: 30px;
+/*    margin-top: 30px;*/
     
 }
 .projects .btn:hover {
@@ -337,7 +363,7 @@ footer {
     display: inline;
 
 margin-top: 0px;
-line-height: 36px;
+line-height: inherit;
 font-weight: 400;
   }
 
@@ -348,6 +374,18 @@ font-weight: 400;
 .con1 {
     width:300px; height: 400px;
     margin-right: 50px;
+}
+
+.con3{
+   width:300px; height: 500px;
+    margin-right: 50px;  
+    
+    
+}
+
+.con2{
+    width:440px; height: 200px;
+    margin-right: 40px;  
 }
 
 
