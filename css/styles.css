@@ -69,7 +69,7 @@ padding-top: 30px;
 .slogan1{
    font-size: 30px; 
     margin-bottom: 30px;
-       font-family: 'Roboto', "Open Sans", "Helvetica Neue";
+       font-family: 'Anaheim','Roboto', "Open Sans", "Helvetica Neue";
 
 }
 
@@ -88,7 +88,7 @@ body {
   color: #343434;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', 'Open Sans',Arial,sans-serif; 
+  font-family: 'Anaheim','Roboto', 'Open Sans',Arial,sans-serif; 
   font-size: 18px;
   line-height: 2;
 }
@@ -98,6 +98,10 @@ body {
     height: 228px;
 }
 
+.play{
+    
+    font-size: medium;
+}
 
 .img2{
     width:400px;
@@ -107,13 +111,21 @@ body {
 
 .img3{
     
-  width: 150px;
-    height: 280px;
+  width: 130px;
+    height: 250px;
     
 }
 
+.cursor {
+    
+    width=400px; 
+    height=136px;
+}
 
+.nextproject {
+ 
 
+}
 
 img {
   max-width: 800px;
@@ -170,7 +182,7 @@ h2 {
      
 }
 h1, h2 {
-  font-family:   'Abril Fatface',"Open Sans", "Helvetica Neue";
+  font-family:  'Abril Fatface', 'Roboto',"Open Sans", "Helvetica Neue";
   font-weight: 400;
   margin: 0;
 }
@@ -181,11 +193,14 @@ h1, h2 {
   padding: 60px 0;
 }
 
+
+
 .content-wrap1 {
-  max-width: 800px;
+  max-width: 1200px;
   width: 85%;
   margin: 0 auto;
-  padding: 60px 0;
+
+  padding: 60px ;
 }
 
 .content-wrap2 {
@@ -205,8 +220,9 @@ h1, h2 {
 }
 
 h3 {
-     font-family:   'Roboto',"Open Sans", "Helvetica Neue";
+     font-family:  'Anaheim', 'Roboto',"Open Sans", "Helvetica Neue";
   margin-bottom: 0;
+
 }
 
 .contact {
@@ -228,6 +244,8 @@ h3 {
 }
 
 
+
+
 /* Profile
 ------------------------------------*/
 header {
@@ -247,12 +265,18 @@ header {
 }
 
 .projects-3{
-    background: #F1EFF9 ;
+    background: #F5F3F9;
+    
+/*    #F1EFF9 ;*/
 }
 .projects-2{
-    background: #EDF6F7;
+    background: #F6F3ED;
 }
 
+.projects-4 {
+    
+    background: #EFF7FA;
+}
 
 .projects a {
   color: #2F3061;
@@ -272,18 +296,19 @@ header {
   background: #EE6352;
 }
 .project-item {
-  overflow: hidden;
+  overflow:hidden;
 }
+
+.project-item-1 {
+  overflow:hidden;
+}
+
 .project-item h3 {
   margin-top: 0;
 }
 
 
-/* Work Experience
-------------------------------------*/
-.work-experience {
-  background: #A1C6D7;
-}
+
 
 
 
@@ -304,6 +329,68 @@ footer {
   display: inline-block;
 }
 
+.NAV {
+    
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+ 
+}
+
+
+.overview {
+    
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+    
+}
+
+
+
+nav{
+    padding-top: 50px;
+       background: #F7F7F7;
+
+/*    display:flex;*/
+/*    position: fixed;*/
+}
+
+
+.logo{
+
+height: 60px;
+    width: 85px;
+    margin: 0;
+    display: flex;
+/*    justify-content: flex-start;*/
+     margin-right: 600px;
+}
+
+
+    .contact-list-1 {
+        list-style: none;
+        background-color: #F7F7F7;
+        display:flex;
+/*        padding: 20px;*/
+       
+/*        align-items: center;*/
+        justify-content: flex-end;
+   margin: 0;
+/*        padding-right: 100px;*/
+     
+        padding: 20px 15%;
+/*        backface-visibility: #F7F7F7;*/
+/*         display: flex;*/
+      
+        font-size: 18px;
+        font-family:  'Anaheim', 'Abril Fatface',"Open Sans", "Helvetica Neue";
+}
+
+
 
 /* Responsive
 ------------------------------------*/
@@ -322,8 +409,16 @@ footer {
   .project-item img {
     float: left;
     margin-right: 20px;
+/*      padding-top: 30px;*/
   }
 
+      .project-item-1 img {
+    float: right;
+    margin-left: 20px;
+          margin-top:  30px;
+  }
+    
+    
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -333,6 +428,11 @@ footer {
     display: flex;
     justify-content: center;
   }
+    
+
+
+
+    
 }
 
 @media screen and (max-width:749px){
@@ -370,6 +470,7 @@ font-weight: 400;
 .con {
     width:350px; height: 200px;
     margin-right: 40px;
+/*      padding-top: 20px;*/
 }
 .con1 {
     width:300px; height: 400px;
@@ -456,13 +557,21 @@ iframe {
 }
 
 
+.num {
+    
+    
+    color:darkturquoise;
+font-size: 30px;
+    font-family:fantasy;
+}
+
 .feature{
     width: 390px;
     height: 250px;
 }
 
 .copy {
-    font-size: small;
+    font-size: medium;
 }
 
 .footer{
