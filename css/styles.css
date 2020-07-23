@@ -47,7 +47,11 @@ padding-top: 30px;
     
 }
 
-
+.box{
+    
+/*    text-decoration:overline;*/
+/*    text-decoration-style:dashed;*/
+}
 
 .content-wrapper {
   
@@ -96,6 +100,7 @@ body {
 .img1{
     width:300px;
     height: 228px;
+     border-radius: 3%;
 }
 
 .play{
@@ -145,6 +150,7 @@ iframe {
 
 .img4 {
      width:400px;
+     border-radius: 50%;
 }
 
 
