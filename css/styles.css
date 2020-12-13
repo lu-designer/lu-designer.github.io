@@ -101,7 +101,11 @@ body {
     width:300px;
     height: 228px;
      border-radius: 3%;
+    
 }
+
+
+
 
 .play{
     
@@ -158,8 +162,11 @@ a {
    text-decoration:none;
     color: #343434;
 }
+
+
+
 a:hover {
-  text-decoration:none;
+  text-decoration:underline;
 /*    color:#EE6352;*/
 /*     color: #b566ff;*/
 /*     color:  #dab3ff;*/
@@ -263,7 +270,7 @@ h3 {
 ------------------------------------*/
 header {
 /*   background-color:  #ffffff;*/
-    background:#F7F7F7 ;
+/*    background:#F7F7F7 ;*/
   color: #343434;
 }
 
@@ -278,7 +285,7 @@ header {
 /*   background: #F7F7F7;*/
 /*   background: #fcfaff;*/
 
-    background:  #F5F3F9;
+/*    background:  #F7F7F7;*/
     
 
 
@@ -287,7 +294,7 @@ header {
 }
 .projects-1{
     
-    background: #F7F7F7;
+/*    background: #F7F7F7;*/
     
 }
 
@@ -362,7 +369,7 @@ header {
 ------------------------------------*/
 footer {
 /*      background-color:  #ffffff;*/
-  background: #F7F7F7;
+/*  background: #F7F7F7;*/
 
     color: dimgrey;
 }
@@ -399,8 +406,8 @@ footer {
 
 nav{
     padding-top: 50px;
-/*      background-color:  #ffffff;*/
-       background: #F7F7F7;
+      background-color:  #ffffff;
+/*       background: #F7F7F7;*/
 
 /*    display:flex;*/
 /*    position: fixed;*/
@@ -420,9 +427,9 @@ height: 60px;
 
     .contact-list-1 {
         list-style: none;
-/*        background-color:  #ffffff;*/
+        background-color:  #ffffff;
 
-        background-color: #F7F7F7; 
+/*        background-color: #F7F7F7; */
         display:flex;
 /*        padding: 20px;*/
        
